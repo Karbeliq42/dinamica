@@ -7,7 +7,7 @@
 #define CLEAR_SCREEN "cls"
 #else
 #define CLEAR_SCREEN "clear"
-#endif    
+#endif
 
 #define MaxUsers 3
 

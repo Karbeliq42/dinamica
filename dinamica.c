@@ -30,6 +30,8 @@ ListaRegistros *inicializarLista() {
 
 int gerarID() { return proximoID++; }
 
+//INCLUIR
+
 void adicionarRegistro(ListaRegistros *lista) {
   Registro registro;
 
@@ -75,6 +77,7 @@ void adicionarRegistro(ListaRegistros *lista) {
   lista->registros[lista->tamanho] = registro;
   lista->tamanho++;
 }
+// LISTAR
 
 void exibirRegistros(ListaRegistros *lista) {
   printf("Registros:\n");
@@ -90,6 +93,8 @@ void exibirRegistros(ListaRegistros *lista) {
     printf("\n");
   }
 }
+
+//EDITAR
 
 void editarRegistros(ListaRegistros *lista) {
   int id;
@@ -150,6 +155,8 @@ void editarRegistros(ListaRegistros *lista) {
     printf("Registro com o ID %d não encontrado.\n", id);
   }
 }
+
+//EXCLUIR
 
 void excluirRegistro(ListaRegistros *lista) {
   int id;

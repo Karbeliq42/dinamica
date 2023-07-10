@@ -4,6 +4,8 @@
 
 #define STRING_T 50
 
+//obrigado de novo
+
 typedef struct {
   int id;
   char *nome;
